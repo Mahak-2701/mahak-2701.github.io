@@ -1,0 +1,46 @@
+body{
+    margin: 40px;
+    padding: 35px;
+}
+header{
+    border: 2px solid black;
+    align-items:center ;
+   
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+   
+}
+a{
+    text-decoration: none;
+    
+}
+.box{
+    margin-top: 30px;
+    background-color: white;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.box1{
+    text-align: center;
+}
+
+.box1 div img{
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+.box1 h5{
+    font-size: 14px;
+    font-weight: 600;
+}
+footer{
+    color:white;
+    background: url('img/01s.jpeg');
+    background-size: contain;
+    height:400px;
+  
+}
