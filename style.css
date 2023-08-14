@@ -44,5 +44,7 @@ footer{
     color:white;
     background: url('img/01s.jpeg');
     background-size: contain;
+    background-repeat: no-repeat;
     height: 400px;
+    opacity: 0.6;
 }
