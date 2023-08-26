@@ -12,5 +12,8 @@ function greet(){
 document.addEventListener("DOMContentLoaded", async() =>{
     let first = await greet();
 
+    const div = document.createElement("code");
+    div.innerHTML = `<h2>I was created on runtime. <h2/>`;
+    body.appendChild(div);
     console.log(`Greeting has been done!!`);
 });
