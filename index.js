@@ -9,6 +9,8 @@ async function page(){
 function greet(){
     console.log("\t Hello All Users: ", document.querySelectorAll("*"));
 }
-document.addEventListener("DOMContentLoaded", () =>{
+document.addEventListener("DOMContentLoaded", async() =>{
+    let first = await greet();
 
+    console.log(`Greeting has been done!!`);
 });
