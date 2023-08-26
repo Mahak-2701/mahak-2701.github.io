@@ -6,7 +6,8 @@ function page(){
     console.log(document.all);
     return `Collection of All Elements : ${document.all}\n`;
 }
-function greet(){
+async function greet(){
+    let p = await page();
     console.log("\t Hello All Users: ", document.querySelectorAll("*"));
 }
 document.addEventListener("DOMContentLoaded", async() =>{
