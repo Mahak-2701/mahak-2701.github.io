@@ -6,3 +6,7 @@ async function page(){
     console.log(document.all);
     return `Collection of All Elements: ${document.all}\n`;
 }
+
+document.addEventListener("DOMContentLoaded", () =>{
+    
+});
