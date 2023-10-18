@@ -60,7 +60,55 @@ nav a:hover{
     text-indent: 20px;
 }
 
+/* paragraph about*/
+p {
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+
+/* .container {
+    width: 0%;
+} */
+
+span {
+    display: inline-block;
+    overflow: hidden;
+    animation: 0.03s swift-up ease-in-out forwards;
+}
+
+i {
+    font-style: normal;
+    position: relative;
+    top: var(--headingSize);
+    animation: 0.05s swift-up ease-in-out forwards;
+}
+
+@keyframes swift-up {
+    to {
+        top: 0;
+    }
+}
+
+/* @media screen and (max-width: 1600px) { */
+.container {
+    width: auto;
+    margin: 0 10%;
+}
+
+:root {
+    --headingSize: 35px;
+}
+
+/* } */
+
+
+.p1 span:hover {
+    font-size: 30px;
+    transition: font-size 0.2s;
+    color: rgb(21, 157, 215)
+}
 
 /* Main Content Styles */
 .content {
